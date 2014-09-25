@@ -20,7 +20,7 @@ friend[:age]
 # Question 3
 # Write code to make all the elements in the pet array be uppercase.
 # The result should be a new array, and the old pet array should still exist.
-pets.map{ |i| i.upcase }
+pets.map{ |pet| pet.upcase }
 
 # Question 4
 # Write code to retrieve the index of 'dog' in the original pet array.
